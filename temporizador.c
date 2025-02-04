@@ -62,7 +62,7 @@ int main()
     //chamar as funções de temporização
     struct repeating_timer timer;
      
-    // temporizador ajustado para um atraso de 3 segundos (3000 ms)  **copilot**
+    // temporizador ajustado para um atraso de 3 segundos (3000 ms)
     // "com emprego da função add_repeating_timer_ms"
     add_repeating_timer_ms(3000, repeating_timer_callback, NULL, &timer);
 
